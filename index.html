@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+    <title>Personal Portfolio Website Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__brand">Minhaz.</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-line nav__icon"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-user-line nav__icon"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-medal-line nav__icon"></i>
+                            Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#service" class="nav__link">
+                            <i class="ri-briefcase-line nav__icon"></i>
+                            Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="ri-folders-line nav__icon"></i>
+                            Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">
+                            <i class="ri-message-line nav__icon"></i>
+                            Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-phone-line nav__icon"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <span class="theme__toggle">
+                    <i id="theme-toggle" class="ri-moon-line"></i>
+                </span>
+                <span class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-4-line"></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="home" class="home">
+            <div class="d-grid home__wrapper container">
+                <div class="home__content">
+                    <h1 class="home__title">
+                        I Am <span class="home__name">Minhaz Halim Zim</span><br>
+                        A Web Developer,<br>
+                        Freelancer,<br>
+                        & AI Enthusiastic
+                    </h1>
+                    <p class="home__description">Aspiring Passionate Self-Taught Front-End Web Developer, Technology lover, Artificial Intelligence & Cloud Computing Enthusiastic.</p>
+                    <a href="#contact" class="btn btn--primary">
+                        <i class="ri-mail-line"></i>
+                        Hire Me
+                    </a>
+                    <div class="social">
+                        <span class="social__title">Follow Me</span>
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="https://www.facebook.com/share/1CE51DgKdK" class="social__link" target="_blank" rel="noopener">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.linkedin.com/in/minhaz-halim-zim-221688170" class="social__link" target="_blank" rel="noopener">
+                                    <i class="ri-linkedin-fill"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://github.com/minhazhalim" class="social__link" target="_blank" rel="noopener">
+                                    <i class="ri-github-fill"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.reddit.com/user/minhazhalim/" class="social__link" target="_blank" rel="noopener">
+                                    <i class="ri-reddit-fill"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="./assets/images/zim-1.jpg" alt="Minhaz Halim Zim" class="home__image">
+            </div>
+        </section>
+        <section id="about" class="about section">
+            <div class="d-grid about__wrapper container">
+                <div class="about__content">
+                    <span class="section__subtitle">About Me</span>
+                    <h2 class="section__title">I Build and Develop Experiences that make people's live simple.</h2>
+                    <p class="about__description">I am a Passionate, Self-Taught Web Developer. My Future Goal is to Become a Full-Stack Web Developer. I Love to do
+                    Coding Stuff & Want to Learn Something New About Web Technology & JavaScript Ecosystem by -
+                    Reading Articles, Reading Other People's Code, News, Blog posts & Video Tutorials, etc........</p>
+                    <a href="Curriculum Vitae - Minhaz Halim.pdf" class="btn btn--primary" download><i class="ri-article-line"></i>View CV</a>
+                </div>
+                <img src="./assets/images/zim-2.jpg" alt="Minhaz Halim Zim" class="about__image">
+            </div>
+        </section>
+        <section id="skills" class="skills section section-bg">
+            <div class="section__header container">
+                <span class="section__subtitle">Skills</span>
+                <h2 class="section__title">Some of My Programming Skill Sets
+                </h2>
+            </div>
+            <div class="d-grid skills__wrapper container">
+                <div class="skills__content">
+                    <h3 class="skills__title">Front-End Skills</h3>
+                    <div class="skills__content-wrapper">
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/html5-fill.svg" alt="HTML Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/css3-fill.svg" alt="CSS Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/logo-sass.svg" alt="SASS Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">SASS</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/javascript-fill.svg" alt="JavaScript Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">JavaScript</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-bootstrap.svg" alt="Bootstrap Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Bootstrap</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-tailwindcss.svg" alt="TailwindCSS Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">TailwindCSS</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/gsap logo.png" alt="GSAP Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">GSAP</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/reactjs-fill.svg" alt="React.js Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">React.js</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-redux.svg" alt="Redux.js Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Redux.js</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/testing-library-logo.png" alt="React Testing Library Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">React Testing Library</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__title">Back-End Skills</h3>
+                    <div class="skills__content-wrapper">
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-nodejs.svg" alt="Node.js Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Node.js</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-express-js.svg" alt="Express.js Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Express.js</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-mongodb.svg" alt="MongoDB Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">MongoDB</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-firebase.svg" alt="Firebase Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Firebase</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-authentication.svg" alt="Authentication Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Authentication</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/Socket-io.png" alt="Socket.io Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Socket.io</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__title">Other JavaScript Tech Skills</h3>
+                    <div class="skills__content-wrapper">
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-npm.svg" alt="Node Package Manager Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Node Package Manager</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-eslint.svg" alt="ESLint Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">ESLint</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-webpack.svg" alt="Webpack.js Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Webpack.js</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-vite.svg" alt="Vite.js Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Vite.js</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-gulp-96.png" alt="Gulp.js Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Gulp.js</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-babel-64.png" alt="Babel.js Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Babel.js</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/icons8-typescript.svg" alt="TypeScript Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">TypeScript</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__image-wrapper">
+                                <img src="./assets/images/prettier.png" alt="Prettier Logo" class="skills__image">
+                            </div>
+                            <h3 class="skills__name">Prettier</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="counter section">
+            <div class="d-grid counter__wrapper container">
+                <div class="counter__item">
+                    <span class="counter__icon">
+                        <i class="ri-user-line"></i>
+                    </span>
+                    <p class="counter__number" data-target="8">0</p>
+                    <h2 class="counter__title">Years Experience</h2>
+                </div>
+                <div class="counter__item">
+                    <span class="counter__icon">
+                        <i class="ri-briefcase-line"></i>
+                    </span>
+                    <p class="counter__number" data-target="100">0</p>
+                    <h2 class="counter__title">Projects Completed</h2>
+                </div>
+                <div class="counter__item">
+                    <span class="counter__icon">
+                        <i class="ri-cup-line"></i>
+                    </span>
+                    <p class="counter__number" data-target="350">0</p>
+                    <h2 class="counter__title">Cups Of Coffee</h2>
+                </div>
+                <div class="counter__item">
+                    <span class="counter__icon">
+                        <i class="ri-user-smile-line"></i>
+                    </span>
+                    <p class="counter__number" data-target="225">0</p>
+                    <h2 class="counter__title">Happy Clients</h2>
+                </div>
+            </div>
+        </section>
+        <section id="service" class="service section section-bg">
+            <div class="d-grid service__wrapper container">
+                <div class="service__content">
+                    <span class="section__subtitle">My Services</span>
+                    <h2 class="section__title">What I Provide To My Clients</h2>
+                    <p class="service__description">
+                        "I craft high-performance, responsive websites tailored to your brand’s unique identity. From sleek landing pages to
+                        multi-page portfolios, I focus on writing clean, semantic code that ensures your site loads fast, ranks well on search
+                        engines (SEO), and looks stunning on every device—mobile, tablet, or desktop."
+                    </p>
+                    <p class="service__description">
+                        "I transform complex business requirements into robust, user-friendly web applications. Whether you need a dashboard, a
+                        management tool, or a SaaS product, I build dynamic systems with smooth interactivity and secure architecture. My focus
+                        is on scalability and delivering a seamless user experience (UX) that feels like a native app right in the browser."
+                    </p>
+                    <p class="service__description">
+                        "I create immersive, browser-based gaming experiences that engage users without requiring downloads. Using modern HTML5
+                        canvas and JavaScript technologies, I build interactive games suitable for marketing campaigns, educational tools, or
+                        pure entertainment. I ensure cross-platform compatibility so your audience can play instantly on any device."
+                    </p>
+                    <a href="#" class="btn btn--primary">
+                        <i class="ri-chat-3-line"></i>
+                        Let's Talk
+                    </a>
+                </div>
+                <div class="service__info">
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-pages-fill"></i>
+                        </div>
+                        <div class="service__info-wrapper">
+                            <h3 class="service__info-title">Website Development</h3>
+                            <p class="service__description">"I build pixel-perfect, mobile-first websites. I ensure your online presence is fast, accessible, and optimized for
+                            search engines to help you reach more clients."</p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-apps-fill"></i>
+                        </div>
+                        <div class="service__info-wrapper">
+                            <h3 class="service__info-title">WebApplication Development</h3>
+                            <p class="service__description">"I engineer dynamic web applications that solve real-world problems. I focus on functionality, efficiency, and creating
+                            intuitive interfaces that users love."</p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-gamepad-fill"></i>
+                        </div>
+                        <div class="service__info-wrapper">
+                            <h3 class="service__info-title">Web/Browser Game Development</h3>
+                            <p class="service__description">"I develop interactive 2D browser games using pure JavaScript. I bring ideas to life with smooth animations, engaging
+                            physics, and instant playability."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio section">
+            <div class="section__header container">
+                <span class="section__subtitle">Portfolio</span>
+                <h2 class="section__title">Featured Projects</h2>
+            </div>
+            <div class="d-grid portfolio__wrapper container">
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="./assets/images/scientific-calculator.png" alt="Scientific Calculator" class="portfolio__image">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Scientific Calculator</h3>
+                            <p class="portfolio__description">An elegant and fully-featured scientific calculator application built with core web technologies — no external
+                            dependencies or frameworks required.</p>
+                        </div>
+                    </div>
+                    <a href="https://minhazhalim.github.io/Scientific-Calculator-Application/" class="portfolio__link" target="_blank" rel="noopener">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="./assets/images/pokemon.png" alt="Pokemon " class="portfolio__image">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Pokemon</h3>
+                            <p class="portfolio__description">A simple, nicely structured website for finding Pokémon information by species, types, evolutions, and moves.</p>
+                        </div>
+                    </div>
+                    <a href="https://minhazhalim.github.io/Pokemon-Information-Finder-Website/" class="portfolio__link" target="_blank" rel="noopener">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="./assets/images/AI-Chatbot.png" alt="AI Chatbot" class="portfolio__image">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">AI Chatbot</h3>
+                            <p class="portfolio__description">A Normal AI chatbot application that leverages the Google Gemini AI API to generate intelligent responses. This project
+                            is designed to provide an interactive chat experience with no setup and a clean, responsive interface.</p>
+                        </div>
+                    </div>
+                    <a href="https://minhazhalim.github.io/AI-Chatbot-Application/" class="portfolio__link" target="_blank" rel="noopener">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="./assets/images/AI-Image-Generator.png" alt="AI Image Generator" class="portfolio__image">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">AI Image Generator</h3>
+                            <p class="portfolio__description">A beautiful, elegant, and well-structured AI image generator application to unleash you creativity or imaginary through
+                            prompt-text to realistic art generation.</p>
+                        </div>
+                    </div>
+                    <a href="https://minhazhalim.github.io/AI-Image-Generator-Application/" class="portfolio__link" target="_blank" rel="noopener">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="./assets/images/drawing.png" alt="Drawing" class="portfolio__image">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Drawing</h3>
+                            <p class="portfolio__description">A lightweight, elegant drawing application built with HTML Canvas API and JavaScript getContext() method. This
+                            application provides an intuitive interface for creating very basic artwork without any external dependencies or
+                            libraries.</p>
+                        </div>
+                    </div>
+                    <a href="https://minhazhalim.github.io/Drawing-Application/" class="portfolio__link" target="_blank" rel="noopener">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="./assets/images/image-editor.png" alt="Image Editor" class="portfolio__image">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Image Editor</h3>
+                            <p class="portfolio__description">A lightweight, elegant image editor application offers essential image editing capabilities without any external dependencies.</p>
+                        </div>
+                    </div>
+                    <a href="https://minhazhalim.github.io/Image-Editor-Application/" class="portfolio__link" target="_blank" rel="noopener">
+                        <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact section section-bg">
+            <div class="section__header container">
+                <span class="section__subtitle">Let's Talk</span>
+                <h2 class="section__title">Have a Project Idea? Feel Free to Contact</h2>
+            </div>
+            <div class="d-grid contact__wrapper container">
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <label for="" class="form__label">Name</label>
+                        <input type="text" class="form__input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="" class="form__label">Email</label>
+                        <input type="email" class="form__input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="" class="form__label">Message</label>
+                        <textarea class="form__input form__textarea" placeholder="Tell me about your project"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">
+                        <i class="ri-send-plane-line"></i>Send Message
+                    </button>
+                </form>
+                <div class="d-grid contact__content">
+                    <div class="contact__info">
+                        <div class="contact__icon">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        <div class="contact__info-wrapper">
+                            <h3 class="contact__title">Call:</h3>
+                            <p class="contact__description">(+88) 01961227611</p>
+                        </div>
+                    </div>
+                    <div class="contact__info">
+                        <div class="contact__icon">
+                            <i class="ri-mail-line"></i>
+                        </div>
+                        <div class="contact__info-wrapper">
+                            <h3 class="contact__title">Email:</h3>
+                            <p class="contact__description">mhzim93@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__info">
+                        <div class="contact__icon">
+                            <i class="ri-map-pin-line"></i>
+                        </div>
+                        <div class="contact__info-wrapper">
+                            <h3 class="contact__title">Location:</h3>
+                            <p class="contact__description">House#154, Road#4, Mohammadia Housing Society, Dhaka-1207, Bangladesh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="d-grid footer__wrapper container">
+            <div class="footer__content">
+                <h4 class="footer__name">Minhaz Halim Zim</h4>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#service" class="footer__link">Services</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#blog" class="footer__link">Blog</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a href="https://www.facebook.com/share/1CE51DgKdK" class="social__link" target="_blank" rel="noopener">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://www.linkedin.com/in/minhaz-halim-zim-221688170" class="social__link" target="_blank" rel="noopener">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://github.com/minhazhalim" class="social__link" target="_blank" rel="noopener">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://www.reddit.com/user/minhazhalim/" class="social__link" target="_blank" rel="noopener">
+                            <i class="ri-reddit-fill"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright container"><p>&copy; Copyright 2024 Minhaz Halim Zim. All Rights Reserved</p></div>
+    </footer>
+    <a href="#" id="scrolltop" class="scrolltop"><i class="ri-arrow-up-line"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
